@@ -1,4 +1,4 @@
-Flask SocketIO Bootstrap 4 Boilerplate for Python 3
+UvA Intelligent Robotics website
 ==============
 
-Boilerplate Flask webserver with integrated Socket.IO and Bootstrap 4.
+Our team's website.

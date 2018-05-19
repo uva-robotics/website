@@ -5,7 +5,25 @@
 {% endblock %}
 {% block content %}
 
+<div class="row no-margin">
+  <div class="col-4 no-margin">
+<div class="masthead">
+  <div class="masthead-bg"></div>
+  <div class="container h-100">
+    <div class="row h-100">
+      <div class="col-12 my-auto">
+        <div class="masthead-content text-white py-5 py-md-0">
+          <h1 class="mb-3">Team</h1>
+          <p class="mb-5">
+            <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
+<div class="col-8 margin-top">
 <div class="card-group team-cards">
   <div class="card">
     <img class="card-img-top rounded-circle" src="https://avatars3.githubusercontent.com/u/12057651?s=460&v=4" alt="Card image cap">
@@ -57,6 +75,8 @@
       </p>
     </div>
   </div>
+</div>
+<div class="card-group team-cards">
   <div class="card">
     <img class="card-img-top rounded-circle" src="https://openclipart.org/download/247324/abstract-user-flat-1.svg" alt="Card image cap">
     <div class="card-body">
@@ -89,33 +109,26 @@
       </p>
     </div>
   </div>
+  <div class="card">
+    <img class="card-img-top rounded-circle circle-img" src="https://openclipart.org/download/247324/abstract-user-flat-1.svg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">You?</h5>
+      <p class="card-text">
+        <small class="text-muted">
 
-
+        </small>
+      </p>
+      <p class="card-text">
+        <small class="text-muted">
+          <img style="width: 40px;" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"/>
+        </small>
+      </p>
+    </div>
+  </div>
 </div>
-
-<!-- <div class="row align-items-center">
-<div class="col-12 text-center">
-IRL
-</div>
-</div> -->
-
-<!-- <div style="padding-top:10%">
-<div class="jumbotron">
-<h1 class="display-3">Hello, world!</h1>
-<p class="lead"><a href="http://getbootstrap.com">Bootstrap 4 Boilerplate</a></p>
-<hr class="my-4">
-<div>
-<b>Your e-mail: {{ user.email }}</b>
-<br>
-<i>Project: {{ app_info.name }}</i>
-<p>
-<div id="time"></div>
-<div id="version"></div>
-</p>
 </div>
 </div>
 
-</div> -->
 
 <!-- BODY css / scripts -->
 {% endblock %}

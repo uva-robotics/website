@@ -2,12 +2,25 @@ body {
   background-color: white;
 }
 
+.margin-top {
+  padding-top: 50px;
+}
+
 .papers {
   padding: 50px;
 }
 
+.card {
+  border: 0;
+}
+
 .team-cards {
     padding: 50px;
+}
+
+.card-img-top {
+width: 150px;
+align-self: center;
 }
 
 #particles-js {
@@ -31,8 +44,8 @@ body {
 }
 
 .circle-img {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   overflow: hidden;
 }
 
@@ -45,6 +58,7 @@ body {
 .navbar {
   position: absolute;
   top: 0;
+  z-index: 1;
 
   /* border-bottom: 3px solid black; */
 }
@@ -65,7 +79,8 @@ body {
 }
 
 .nav-link:hover {
-  color: #000000
+  color: #000000;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
 }
 
 .image-container {
@@ -207,7 +222,7 @@ body {
   width: 100%;
   min-height: 35rem;
   height: 100%;
-  background: linear-gradient(to bottom right, blue, blue);
+    background: linear-gradient(180deg, rgb(65, 59, 105), rgba(31, 58, 147, 1));
   /* background-color: rgb(0, 54, 123); */
   transform: skewY(4deg);
   transform-origin: bottom right;
@@ -222,7 +237,22 @@ body {
   width: 100%;
   min-height: 35rem;
   height: 100%;
-  background: linear-gradient(-4deg, blue, yellow);
+  background: linear-gradient(180deg, rgba(31, 58, 147, 1), rgba(234, 67, 53, 1));
+  /* background-color: rgb(0, 54, 123); */
+  transform: skewY(4deg);
+  transform-origin: bottom right;
+}
+
+.masthead .masthead-bg-3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  min-height: 35rem;
+  height: 100%;
+  background: linear-gradient(180deg,  rgba(234, 67, 53, 1), rgba(251, 188, 7, 1));
   /* background-color: rgb(0, 54, 123); */
   transform: skewY(4deg);
   transform-origin: bottom right;
@@ -271,6 +301,12 @@ body {
     min-height: 0;
     transform: skewX(8deg);
     transform-origin: bottom right;
+  }
+
+  .masthead .masthead-bg-3 {
+    min-height: 0;
+    transform: skewX(-8deg);
+    transform-origin: top right;
   }
 
   .masthead .masthead-content {

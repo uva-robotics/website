@@ -6,25 +6,85 @@
 {% block content %}
 
 
-<div class="container">
-    <div style="padding-top:10%">
-        <div class="jumbotron">
-            <h1 class="display-3">Hello, world!</h1>
-            <p class="lead"><a href="http://getbootstrap.com">Bootstrap 4 Boilerplate</a></p>
-            <hr class="my-4">
-            <div>
-                <b>Your e-mail: {{ user.email }}</b>
-                <br>
-                <i>Project: {{ app_info.name }}</i>
-                <p>
-                    <div id="time"></div>
-                    <div id="version"></div>
-                </p>
-            </div>
-        </div>
-
-    </div>
+<div class="overlay">
 </div>
+
+<div class="masthead">
+  <div class="masthead-bg"></div>
+  <div class="container h-100">
+    <div class="row h-100">
+      <div class="col-12 my-auto">
+        <div class="masthead-content text-white py-5 py-md-0">
+          <h1 class="mb-3">Intelligent Robotics Lab</h1>
+          <p class="mb-5">
+            <span id="typed" style="font-size: 1.2em; font-weight: 500"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="masthead">
+  <div class="masthead-bg-2"></div>
+  <div class="container h-100">
+    <div class="row h-100">
+      <div class="col-12 my-auto">
+        <div class="masthead-content text-white py-5 py-md-0">
+          <h1 class="mb-3">Innovation</h1>
+          <p class="mb-5">
+            <span id="typed" style="font-size: 1.2em; font-weight: 500"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="social-icons">
+  <ul class="list-unstyled text-center mb-0">
+    <li class="list-unstyled-item">
+      <a href="https://github.com/uva-robotics" target="_blank">
+        <i class="fa fa-github"></i>
+      </a>
+    </li>
+    <li class="list-unstyled-item">
+      <a href="#">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li class="list-unstyled-item">
+      <a href="#">
+        <i class="fa fa-instagram"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- <div class="row align-items-center">
+<div class="col-12 text-center">
+IRL
+</div>
+</div> -->
+
+<!-- <div style="padding-top:10%">
+<div class="jumbotron">
+<h1 class="display-3">Hello, world!</h1>
+<p class="lead"><a href="http://getbootstrap.com">Bootstrap 4 Boilerplate</a></p>
+<hr class="my-4">
+<div>
+<b>Your e-mail: {{ user.email }}</b>
+<br>
+<i>Project: {{ app_info.name }}</i>
+<p>
+<div id="time"></div>
+<div id="version"></div>
+</p>
+</div>
+</div>
+
+</div> -->
 
 <!-- BODY css / scripts -->
 {% endblock %}

@@ -29,7 +29,7 @@ function update(data) {
 
 $(document).ready(function(){
   var typed = new Typed('#typed', {
-    strings: ['Hi there!', 'Welcome to the website of the UvA Intelligent Robotics Lab'],
+    strings: ['Welcome to the website of the UvA Intelligent Robotics Lab'],
     stringsElement: null,
     typeSpeed: 10,
     fadeOut: true,
